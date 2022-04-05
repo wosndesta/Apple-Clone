@@ -7,7 +7,7 @@ const NewsChanal = () => {
   useEffect(() => {
     fetch(
 			"https://newsapi.org/v2/everything?q=apple&from=last month&sortBy=recent first&apiKey=88c85367c2e5465e8131b052aceca09a&pageSize=6"
-			// "https://www.googleapis.com/youtube/v3/search?key=AIzaSyBL9RHHrrzgU9ErLSdN5Ws8aiXhRGcLTbQ&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=6"
+
 		 
     )
 			.then((response) => response.json())
